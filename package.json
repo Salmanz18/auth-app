@@ -1,6 +1,7 @@
 {
-  "name": "vite-react-ts-starter",
-  "private": true,
+  "name": "authy",
+  "private": false,
+  "license": "UNLICENSED",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
