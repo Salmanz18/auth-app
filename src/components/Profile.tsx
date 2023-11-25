@@ -8,9 +8,9 @@ const Profile = () => {
       {user?.picture && <img src={user?.picture} alt={user?.name} />}
       <h2>{user?.name}</h2>
       <ul>
-        <p>{user?.email}</p>
-        <p>{user?.email_verified ? 'Email Verified' : 'Email not verified'}</p>
-        <p>{user?.sub}</p>
+        <p>Email: {user?.email}</p>
+        <p>Email Verification: {user?.email_verified ? 'Email Verified' : 'Email not verified'}</p>
+        <p>AuthID: {user?.sub}</p>
       </ul>
     </div>
   ) : null;
