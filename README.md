@@ -1,1 +1,1 @@
-##Auth0 Sample App!
+## Auth0 Sample App!
