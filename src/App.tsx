@@ -1,29 +1,12 @@
 import './App.css';
+import LoginButton from './components/LoginButton';
+import LogoutButton from './components/LogoutButton';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Vite + React + TypeScript + Husky = 🔥</p>
-        <p>
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-          {' | '}
-          <a className="App-link" href="https://github.com/typicode/husky" target="_blank" rel="noopener noreferrer">
-            Husky Docs
-          </a>
-          {' | '}
-          <a className="App-link" href="https://react.dev/learn" target="_blank" rel="noopener noreferrer">
-            React Docs
-          </a>
-        </p>
-      </header>
+      <LoginButton />
+      <LogoutButton />
     </div>
   );
 }
